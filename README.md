@@ -1,3 +1,3 @@
-# R_foo_bar
+# R programming
 
 A repo dedicated to learning R programming.

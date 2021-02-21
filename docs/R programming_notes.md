@@ -1,6 +1,6 @@
-# R_foo_bar notes
+# R programming notes
 
-- [R_foo_bar notes](#r_foo_bar-notes)
+- [R programming notes](#r-programming-notes)
   - [Description](#description)
   - [Useful resources](#useful-resources)
 
