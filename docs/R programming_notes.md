@@ -7,6 +7,12 @@
     - [Installation in WSL(2)](#installation-in-wsl2)
   - [RStudio/RStudio server](#rstudiorstudio-server)
     - [Starting from the command line](#starting-from-the-command-line)
+  - [Packages](#packages)
+    - [Notes on installation](#notes-on-installation)
+  - [Functions](#functions)
+    - [Useful functions](#useful-functions)
+  - [Misc notes](#misc-notes)
+    - [Keyboard shortcuts](#keyboard-shortcuts)
   - [Useful resources](#useful-resources)
 
 ## Todo
@@ -36,8 +42,25 @@ Similar to many programming languages, R programming often occurs within an IDE 
 $ sudo rstudio-server start
 ```
 
-- RStudio server is then available at http://localhost:8787
-- 
+- RStudio server is then available at <http://localhost:8787>
+
+## Packages
+
+### Notes on installation
+
+- In addition to installing packages via R-studio, it is possible to install packages via `apt` at the command-line.
+
+## Functions
+
+### Useful functions
+
+- `seq()` similar to the range() function in python.
+
+## Misc notes
+
+### Keyboard shortcuts
+
+- clear console - `Ctrl + L`.
 
 ## Useful resources
 
