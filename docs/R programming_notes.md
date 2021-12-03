@@ -9,6 +9,7 @@
     - [Starting from the command line](#starting-from-the-command-line)
   - [Packages](#packages)
     - [Notes on installation](#notes-on-installation)
+    - [Removing packages](#removing-packages)
   - [Functions](#functions)
     - [Useful functions](#useful-functions)
   - [Misc notes](#misc-notes)
@@ -42,13 +43,18 @@ Similar to many programming languages, R programming often occurs within an IDE 
 $ sudo rstudio-server start
 ```
 
-- RStudio server is then available at <http://localhost:8787>
+- RStudio server is then available at <http://localhost:8787/>
 
 ## Packages
 
 ### Notes on installation
 
 - In addition to installing packages via R-studio, it is possible to install packages via `apt` at the command-line.
+
+### Removing packages
+
+- Use the `remove.packages` function.
+- It is also feasible to remove all user-installed packages using [this script](https://gist.github.com/Mikuana/51ed2e5f1ab04783884e6af94ecb7262).
 
 ## Functions
 
@@ -61,6 +67,7 @@ $ sudo rstudio-server start
 ### Keyboard shortcuts
 
 - clear console - `Ctrl + L`.
+- run the entire script - `Ctrl + Shift + Enter`.
 
 ## Useful resources
 
